@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Emotion Recognition App</title>
+    <link rel="stylesheet" href="C:/Users/KIIT/Desktop/SER/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Speech Emotion Recognition</h1>
+        <div id="controls">
+            <button id="recordButton">Record</button>
+            <button id="stopButton" disabled>Stop</button>
+            <input type="file" id="uploadInput">
+        </div>
+        <div id="audioContainer">
+            <audio id="audioPlayer" controls></audio>
+        </div>
+        <div id="resultContainer">
+            <h2>Detected Emotion:</h2>
+            <p id="emotionResult"></p>
+        </div>
+    </div>
+
+    <script src="C:/Users/KIIT/Desktop/SER/static/script.js"></script>
+</body>
+</html>
